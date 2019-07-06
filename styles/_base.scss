@@ -1,0 +1,60 @@
+body{
+    background-color: #edeef0;
+}
+
+.main-window {
+  width: 300px;
+  height: 170px;
+  margin: auto;
+  margin-top: 30px; 
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #edeef0;
+  border-radius: 3px;
+
+  .button {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #5181b8;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .authorization-button{
+    bottom: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .user_info{
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    padding-left: 10px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+  }
+
+  .photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+  }
+
+  .photo_img {
+    border-radius: 50%;
+  }
+}
